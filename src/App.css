@@ -45,6 +45,7 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 2rem;
+  position: relative;
 }
 .App .container h3 {
   font-size: 2rem;
