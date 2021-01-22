@@ -40,7 +40,7 @@ body {
 /* container */
 .App .container {
   width: 70rem;
-  height: 40vh;
+  height: 50vh;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
