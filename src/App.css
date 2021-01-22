@@ -14,14 +14,15 @@ body {
 
 /* header */
 .App h2 {
-  margin-top: 2rem;
   margin-left: 2rem;
 }
 .App .title {
+  margin-top: 2rem;
   font-size: 2.25rem;
 }
 .App .root-pixel {
-  font-size: 2rem;
+  margin-top: 1.125rem;
+  font-size: 1.75rem;
 }
 .App .root-pixel input {
   border: none;
@@ -39,7 +40,7 @@ body {
 /* container */
 .App .container {
   width: 70rem;
-  height: 60vh;
+  height: 40vh;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
@@ -70,13 +71,36 @@ body {
 .App .container .rem {
   margin-left: -80px;
 }
+.App .btn {
+  width: 70rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.App .btn .change {
+  border: none;
+  outline: none;
+  background: none;
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
 
 /* 968px 이하일 경우 */
-@media screen and (max-width: 968px) {
+@media screen and (max-width: 1060px) {
   .App .container {
     width: 30.5rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .App .container div {
+    margin-top: 1rem;
+  }
+  .App .btn {
+    width: 30.5rem;
+    margin-top: 1rem;
   }
 }
